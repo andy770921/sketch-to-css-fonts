@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/andy770921/sketch-to-css-fonts.git"
   },
-  "description": "sketch to css and fonts from Sketch.app",
+  "description": "convert sketch to css and icon-fonts",
   "scripts": {
     "convert": "npm run install-sketch && npm run build-fonts && npm run remove-sketch && npm run remove-svg",
     "build-fonts": "sh shell/buildSvg.sh && gulp buildFontAndCss",
@@ -21,7 +21,7 @@
     "sketch",
     "template"
   ],
-  "author": "Tsutomu Kawamura <tsutomu@librize.com>",
+  "author": "Yang-Hao Chou <andy770921@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "gulp-consolidate": "^0.2.0",
@@ -30,7 +30,6 @@
     "lodash": "^4.17.2"
   },
   "dependencies": {
-    "googleapis": "^39.2.0",
     "gulp": "^4.0.2"
   }
 }
