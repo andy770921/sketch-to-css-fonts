@@ -56,7 +56,7 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 
 3. Beacuse of the compatibility of the sketchtool, this repo can **only run in Mac-OS** locally. 
 
-4. GitHub Action supports Mac-OS runner, so output files `artifact.zip` can be downloaded in website, no matter what your local machine is.
+4. GitHub Action supports Mac-OS runner, so output file `artifact.zip` can be downloaded in GitHub website, no matter what your local Operating System is.
 
 ## Acknowledgement:
 
