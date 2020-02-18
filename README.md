@@ -1,7 +1,7 @@
 
 ## Introduction 
 
-This repo are able to convert your sketch file into css and fonts files.
+This repo are able to convert your sketch file into css and icon-fonts files.
 <div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic1.png"/>
 </div>
@@ -22,19 +22,32 @@ This repo are able to convert your sketch file into css and fonts files.
    `npm run convert`
 
 3. final css and fonts files will be exported in the `/dist` folder   
-
+  
+```
+  dist                   
+    ├── sample.html           # html file for listing all icons
+    ├── css                   # css file
+    │    └──    symbols.css           
+    └── fonts                 # icon-font file
+         ├──    symbols.woff
+         ├──    symbols.woff2
+         ├──    symbols.eot
+         ├──    symbols.svg
+         └──    symbols.ttf
+```
+  
 ## GitHub Action
 
 1. You can replace `demo.sketch` with your customized `.sketch` file in the folder `/sketch`
 
 2. when an new commit pushes into Repo, the workflows of GitHub Action will be fired.
 
-3. After all command is done, you will get an `artifact` zip file which contains fonts and css.
-
+3. After all command is done, you will get an `artifact` zip file, which contains fonts and css.
+  
 <div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic3.png"/>
 </div>
-
+  
 ## Detail:
 
 1. The sketchtool cli, offered by [Sketch B.V.](https://developer.sketch.com/cli/), was executed for converting `.sketch` into `.svg`
