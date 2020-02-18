@@ -1,7 +1,7 @@
 
 ## Introduction 
 
-This repo are able to convert your sketch file into css and icon-fonts files.
+This repo is able to convert your sketch file into css and icon-fonts files.
 <div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic1.png"/>
 </div>
