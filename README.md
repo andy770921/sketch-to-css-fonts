@@ -56,5 +56,9 @@ This repo are able to convert your sketch file into css and icon-fonts files.
 
 3. Beacuse of the compatibility of sketchtool, this repo can **only run in Mac-OS**.
 
+## Acknowledgement:
+
+[Symbols for Sketch Repo](https://github.com/cognitom/symbols-for-sketch)
+
 
 
