@@ -1,13 +1,17 @@
-# sketch to css and iconfont manual
+
+## Introduction 
+
+This repo are able to convert your sketch file into css and fonts files.
+
+![image](https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic1.png)
+![image](https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic2.png)
 
 ## Installation:
 
-1. Install gulp package:
-   `npm install gulp -g`
-2. Installation packages in need:
+1. Install all packages:
    `npm install`
 
-## Conversion:
+## Usage:
 
 1. put your source `.sketch` file in the folder `/sketch`
 
@@ -15,4 +19,24 @@
    `npm run convert`
 
 3. final css and fonts files will be exported in the `/dist` folder   
+
+## GitHub Action
+
+1. You can replace `demo.sketch` with your customized `.sketch` file in the folder `/sketch`
+
+2. when an new commit pushes into Repo, the workflows of GitHub Action will be fired.
+
+3. After all command is done, you will get an `artifact` zip file which contains fonts and css.
+
+![image](https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic3.png)
+
+## Detail:
+
+1. The sketchtool cli, offered by [Sketch B.V.](https://developer.sketch.com/cli/), was executed for converting `.sketch` into `.svg`
+
+2. The gulp-related packages was used for converting `.svg` into `.css`, `.ttf`, `.eot`, `.woff`, `.woff2`, `.svg`, and sample html.
+
+3. Beacuse of the compatibility of sketchtool, this repo can **only run in Mac-OS**.
+
+
 
