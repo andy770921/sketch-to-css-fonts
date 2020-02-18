@@ -2,11 +2,10 @@
 ## Introduction 
 
 This repo are able to convert your sketch file into css and fonts files.
-<div style="text-align: center">
+<div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic1.png"/>
 </div>
-
-<div style="text-align: center">
+<div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic2.png"/>
 </div>
 
@@ -32,7 +31,7 @@ This repo are able to convert your sketch file into css and fonts files.
 
 3. After all command is done, you will get an `artifact` zip file which contains fonts and css.
 
-<div style="text-align: center">
+<div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic3.png"/>
 </div>
 
