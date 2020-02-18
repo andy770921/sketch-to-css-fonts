@@ -12,7 +12,7 @@ jobs:
       - run: npm install gulp -g
       - run: npm install
       - run: npm run convert
-      - name: Upload math result for job 1
+      - name: Upload Fonts and Css Result
         uses: actions/upload-artifact@v1
         with:
           name: artifact
