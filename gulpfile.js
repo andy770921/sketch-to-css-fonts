@@ -53,6 +53,6 @@ exports.buildFontAndCss = gulp.task('buildFontAndCss', symbols);
  * This is needed for mapping glyphs and codepoints.
  */
 function mapGlyphs (glyph) {
-  return { name: glyph.name.slice(5), codepoint: glyph.unicode[0].charCodeAt(0) }
+  return { name: glyph.name, codepoint: glyph.unicode[0].charCodeAt(0) }
 }
 
