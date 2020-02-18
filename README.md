@@ -1,4 +1,4 @@
-# nineyi.lib.iconfont 使用手冊
+# sketch to css and iconfont manual
 
 ## Installation:
 
@@ -16,4 +16,3 @@
 
 3. final css and fonts files will be exported in the `/dist` folder   
 
-## 上傳 css font 到 s3
