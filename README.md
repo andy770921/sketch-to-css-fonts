@@ -42,7 +42,7 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 
 2. when an new commit pushes into Repo, the workflows of GitHub Action will be fired.
 
-3. After all command is done, you will get an `artifact` zip file, which contains fonts and css.
+3. After all command is done, you will get an `artifact.zip` file, which contains fonts and css.
   
 <div align="center">
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic3.png"/>
@@ -54,7 +54,9 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 
 2. The gulp-related packages was used for converting `.svg` into `.css`, `.ttf`, `.eot`, `.woff`, `.woff2`, `.svg`, and sample html.
 
-3. Beacuse of the compatibility of sketchtool, this repo can **only run in Mac-OS**.
+3. Beacuse of the compatibility of the sketchtool, this repo can **only run in Mac-OS** locally. 
+
+4. GitHub Action supports Mac-OS runner, so output files `artifact.zip` can be downloaded in website, no matter what your local machine is.
 
 ## Acknowledgement:
 
