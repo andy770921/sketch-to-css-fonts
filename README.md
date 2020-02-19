@@ -36,11 +36,11 @@ This repo is able to convert your sketch file into css and icon-fonts files.
          └──    symbols.ttf
 ```
   
-## GitHub Action:
+## GitHub Actions:
 
 1. You can replace `demo.sketch` with your customized `.sketch` file in the folder `/sketch`.
 
-2. When an new commit pushes into Repo, the workflows of GitHub Action will be fired.
+2. When an new commit pushes into Repo, the workflows of GitHub Actions will be fired.
 
 3. After all commands are done, you will get an `artifact.zip` file, which contains fonts and css.
   
@@ -48,7 +48,7 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 <img src="https://github.com/andy770921/sketch-to-css-fonts/blob/master/readme-Imgs/pic3.png"/>
 </div>
   
-## Detail:
+## Details:
 
 1. The sketchtool cli, offered by [Sketch B.V.](https://developer.sketch.com/cli/), was executed for converting `.sketch` into `.svg`.
 
@@ -56,7 +56,7 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 
 3. Because of the compatibility of the sketchtool, this repo can **only run in Mac-OS** locally. 
 
-4. GitHub Action supports Mac-OS runner, so output file `artifact.zip` can be downloaded in GitHub website, no matter what your local Operating System is.
+4. GitHub Actions supports Mac-OS runner, so output file `artifact.zip` can be downloaded in GitHub website, no matter what your local Operating System is.
 
 ## Acknowledgement:
 
