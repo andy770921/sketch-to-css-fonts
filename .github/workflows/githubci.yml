@@ -9,7 +9,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: npm install gulp -g
       - run: npm install
       - run: npm run convert
       - name: Upload Fonts and Css Result
