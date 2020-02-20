@@ -18,7 +18,7 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 
 1. Put your source `.sketch` file in the folder `/sketch`.
 
-2. Single command for total conversion process:
+2. One command for entire conversion process:
    `npm run convert`
 
 3. Final css and fonts files will be exported in the `/dist` folder.   
