@@ -52,7 +52,7 @@ This repo is able to convert your sketch file into css and icon-fonts files.
 
 1. The sketchtool cli, offered by [Sketch B.V.](https://developer.sketch.com/cli/), was executed for converting `.sketch` into `.svg`.
 
-2. The gulp-related packages was used for converting `.svg` into `.css`, `.ttf`, `.eot`, `.woff`, `.woff2`, `.svg`, and `sample html`.
+2. The gulp-related packages was used for converting `.svg` into `.css`, `.ttf`, `.eot`, `.woff`, `.woff2`, `.svg`, and `sample.html`.
 
 3. Because of the compatibility of the sketchtool, this repo can **only run in Mac-OS** locally. 
 
